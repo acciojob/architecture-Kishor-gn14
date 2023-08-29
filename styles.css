@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+body {
+    width: 1100px;
+    margin: 0 auto; /* This centers the body content */
+}
+
+.imageContainer img {
+    width: 100%; /* This will make the image responsive, it will take the full width of its parent */
+}
+
+table {
+    border: 1px solid black;
+    width: 100%; /* This will make the table take the full width of its parent */
+}
+
+td {
+    width: 200px;
+}
+
+td.middle {
+    width: 600px;
+}
+
+td img {
+    width: 100%; /* This will make the images in the td take the full width of the td */
+}
